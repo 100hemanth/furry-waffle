@@ -1,0 +1,10 @@
+.birthday-card{
+    margin:40px auto;
+    padding:16px;
+    max-width:400px;
+    height:800px; background-image:url('https://dl.dropbox.com/s/ohvsp6nza0nu22o/AlarmingEarnestAfricanaugurbuzzard-size_restricted.gif?dl=0');
+   background-size:100%;
+    text-align:center ;
+    box-shadow:0 24px 40px -8px #311b92;
+    color:#ff6fc8;
+}        

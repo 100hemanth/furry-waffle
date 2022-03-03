@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Star</title>
+    </head>
+    <body style="background-color:#003366">
+    <h2 style="color:#74737a" align="center"><u>Draw a Star Canvas</u></h2>
+        <canvas id="mycanvas" width="220" height="220" style="border:5px solid #00a5e3; padding:0px; margin:auto; display:block; background-color:#00ffff">
+        </canvas>
+        <script>
+            var canvas=document.getElementById('mycanvas');
+            var ctx=canvas.getContext("2d");
+            ctx.fillStyle="#6c88c4";
+            ctx.beginPath();
+            ctx.moveTo(108, 0.0);
+            ctx.lineTo(141, 70);
+            ctx.lineTo(218, 78.3);
+            ctx.lineTo(162, 131);
+            ctx.lineTo(175, 205);
+            ctx.lineTo(108, 170);
+            ctx.lineTo(41.2, 205);
+            ctx.lineTo(55, 131);
+            ctx.lineTo(1, 78);
+            ctx.lineTo(75, 68);
+            ctx.lineTo(108, 0);
+            ctx.closePath();
+            ctx.stroke();
+            ctx.fill();
+        </script>
+        <br />
+    <h1 style="color:#74737a" align="center"><u>Birthday Greeting Card</u></h1>
+    <center>
+         <div class="birthday-card">
+            <h1>Happy Birthday!</h1>
+            <form>
+             <input type="Name" placeholder="Enter your Name"/>
+            </form>
+            <img src="https://www.transparentpng.com/thumb/birthday-cake/red-birthday-cake-png-5.png" align="bottom" width="300px" height="220px" >
+            <h2>Wish you many more happy returns of the day....</h2>
+            <form>
+                <input type="Date of Birth" placeholder="Enter Date of Birth"/>
+            </form>
+            <h3>Wishes From<br/>-Hemanth H</h3>
+            <center><img  src="https://image.freepik.com/free-vector/surprise-theme-happy-birthday-card-illustration_1344-199.jpg"  alt="Birthday image" height="220px" width="220px" border="2px" ></center>
+            <h4>????????????????????</h4>
+            </center>
+    </body>
+</html>
